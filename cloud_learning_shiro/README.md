@@ -16,4 +16,4 @@ Shiro 就是用来解决安全管理的系统化框架。
   效。
 - ShiroFilterFactoryBean，过滤器工厂，Shiro 的基本运行机制是开发者定制规则，Shiro 去执行，具体的执行操作就是由ShiroFilterFactoryBean 创建的一个个 Filter 对象来完成。
 ## 运行机制
-![Image text](https://github.com/gzgz1025/gzgz-cloud-learning/blob/master/doc/shiro.png)
+[Image text](https://raw.githubusercontent.com/gzgz1025/gzgz-cloud-learning/master/doc/shiro.png)
