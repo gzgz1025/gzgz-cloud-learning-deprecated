@@ -1,3 +1,4 @@
+/*
 package com.gzgz.learning.config;
 
 import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
@@ -9,14 +10,17 @@ import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+*/
 /**
  * @ClassName: SwaggerConfiguration
  * @Description:
  * @Author: pzl
  * @CreateDate: 2020/12/3 17:44
  * @Version: 1.0
- */
+ *//*
+
 @Configuration
 @EnableKnife4j
 public class SwaggerConfiguration {
@@ -40,3 +44,4 @@ public class SwaggerConfiguration {
         return docket;
     }
 }
+*/

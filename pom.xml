@@ -11,6 +11,12 @@
     <modules>
         <module>cloud_learning_shiro</module>
         <module>cloud_learning_mbg</module>
+        <module>cloud-learning-gateway9527</module>
+        <module>cloud-learning-nacos-client3377</module>
+        <module>cloud-learning-consumer-nacos-order83</module>
+        <module>cloud-learning-provider-payment9001</module>
+        <module>cloud-learning-provider-payment9002</module>
+        <module>cloud-learning-api-commons</module>
     </modules>
 
     <parent>

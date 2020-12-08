@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gzgz.learning.mapper.ResEnterpriseMapper">
+  <resultMap id="BaseResultMap" type="com.gzgz.learning.model.ResEnterprise">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="enterprise_code" jdbcType="VARCHAR" property="enterpriseCode" />
+    <result column="enterprise_name" jdbcType="VARCHAR" property="enterpriseName" />
+    <result column="taxpayer_id_number" jdbcType="VARCHAR" property="taxpayerIdNumber" />
+    <result column="enterprise_type" jdbcType="VARCHAR" property="enterpriseType" />
+    <result column="enterprise_address" jdbcType="VARCHAR" property="enterpriseAddress" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="create_time" jdbcType="DATE" property="createTime" />
+  </resultMap>
+</mapper>

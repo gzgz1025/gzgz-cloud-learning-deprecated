@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gzgz.learning.mapper.FkPageOperationRefAuthorityMapper">
+  <resultMap id="BaseResultMap" type="com.gzgz.learning.model.FkPageOperationRefAuthority">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="operation_id" jdbcType="BIGINT" property="operationId" />
+    <result column="authority_id" jdbcType="BIGINT" property="authorityId" />
+  </resultMap>
+</mapper>

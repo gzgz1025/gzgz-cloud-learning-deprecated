@@ -1,11 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="362d57c4-41c4-47e0-9fe2-67168984364a" name="Default Changelist" comment="" />
+    <list default="true" id="362d57c4-41c4-47e0-9fe2-67168984364a" name="Default Changelist" comment="tupian">
+      <change afterPath="$PROJECT_DIR$/cloud-learning-api-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-api-commons/src/main/java/com/gzgz/learning/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-api-commons/src/main/java/com/gzgz/learning/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/java/com/gzgz/learning/OrderNacosMain83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/java/com/gzgz/learning/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/java/com/gzgz/learning/controller/OrderNacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-gateway9527/cloud-learning-gateway9527.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-gateway9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-nacos-client3377/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-nacos-client3377/src/main/java/com/gzgz/learning/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-nacos-client3377/src/main/java/com/gzgz/learning/NacosConfigClientMain3377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-nacos-client3377/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-nacos-client3377/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-provider-payment9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-provider-payment9001/src/main/java/com/gzgz/learning/CloudalibabaProviderPayment9001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-provider-payment9001/src/main/java/com/gzgz/learning/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-provider-payment9001/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-provider-payment9001/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-provider-payment9002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-provider-payment9002/src/main/java/com/gzgz/learning/CloudalibabaProviderPayment9002Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-provider-payment9002/src/main/java/com/gzgz/learning/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-provider-payment9002/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-learning-provider-payment9002/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/FkMenuRefAuthorityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/FkPageElementRefAuthorityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/FkPageOperationRefAuthorityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/FkRoleRefAuthorityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/FkUserRefRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/ResApplicationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/ResAuthorityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/ResDepartmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/ResEnterpriseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/ResFunctionOperationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/ResMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/ResPageElementMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/ResRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/ResUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/FkMenuRefAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/FkPageElementRefAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/FkPageOperationRefAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/FkRoleRefAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/FkUserRefRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/ResApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/ResAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/ResDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/ResEnterprise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/ResFunctionOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/ResMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/ResPageElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/ResRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/ResUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/FkMenuRefAuthorityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/FkPageElementRefAuthorityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/FkPageOperationRefAuthorityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/FkRoleRefAuthorityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/FkUserRefRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/ResApplicationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/ResAuthorityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/ResDepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/ResEnterpriseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/ResFunctionOperationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/ResMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/ResPageElementMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/ResRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/ResUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/asserts/IErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/asserts/PageList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/asserts/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/asserts/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/asserts/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/exception/ApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/exception/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/utils/BeanCopyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/utils/EnumMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/utils/EnumUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/utils/GenerateDateTimeUniqueID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/controller/ResUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/dto/ResUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/realm/ResUserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/service/ResUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/service/impl/ResUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/GzgzTestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/GzgzTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/GzgzTestMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_learning_mbg/target/classes/com/gzgz/learning/mapper/GzgzTestMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_learning_mbg/target/classes/com/gzgz/learning/model/GzgzTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_learning_mbg/target/classes/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_learning_mbg/target/classes/generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_learning_mbg/target/classes/mybatis/GzgzTestMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_learning_shiro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_learning_shiro/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/LeanringShiroMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/LeanringShiroMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/config/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_learning_shiro/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_learning_shiro/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/shiro运行机制.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud_learning_shiro/target/" />
     <ignored path="$PROJECT_DIR$/cloud_learning_mbg/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-learning-gateway9527/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-learning-nacos-client3377/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-learning-provider-payment9001/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-learning-provider-payment9002/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-learning-api-commons/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,83 +126,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/MybatisGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/package-info.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/package-info.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/GzgzTestMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/GzgzTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/GzgzTestMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/generator.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -107,19 +147,58 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>knife4j-spring-boot-starter</find>
+      <find>comparet</find>
+      <find>5.2</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/LeanringShiroMain.java" />
-        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/config/SwaggerConfiguration.java" />
-        <option value="$PROJECT_DIR$/cloud_learning_shiro/pom.xml" />
         <option value="$PROJECT_DIR$/cloud_learning_mbg/pom.xml" />
         <option value="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/MybatisGenerator.java" />
         <option value="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/GzgzTest.java" />
         <option value="$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/GzgzTestMapper.java" />
         <option value="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/README.md" />
+        <option value="$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/generator.properties" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/test/java/com/gzgz/learning/ShiroTestMain.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/LeanringShiroMain.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/config/SwaggerConfiguration.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/realm/UserRealm.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/dto/UserDto.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/dto/ResUserDto.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/service/UserService.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/exception/Asserts.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/exception/ApiException.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/service/ResUserService.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/service/impl/ResUserService.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/service/impl/ResUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/controller/ResUserController.java" />
+        <option value="$PROJECT_DIR$/cloud-learning-gateway9527/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-learning-nacos-client3377/src/main/java/com/gzgz/learning/ConfigClientController.java" />
+        <option value="$PROJECT_DIR$/cloud-learning-nacos-client3377/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-learning-api-commons/src/main/java/com/gzgz/learning/CommonResult.java" />
+        <option value="$PROJECT_DIR$/cloud-learning-api-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-learning-provider-payment9001/src/main/java/com/gzgz/learning/CloudalibabaProviderPayment9001Application.java" />
+        <option value="$PROJECT_DIR$/cloud-learning-provider-payment9001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-learning-provider-payment9002/src/main/java/com/gzgz/learning/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloud-learning-provider-payment9002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/java/com/gzgz/learning/OrderNacosController.java" />
+        <option value="$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/java/com/gzgz/learning/controller/OrderNacosController.java" />
+        <option value="$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -136,11 +215,23 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud_learning_shiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="346" />
     <option name="width" value="640" />
     <option name="height" value="346" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -156,6 +247,225 @@
             <path>
               <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-consumer-nacos-order83" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-consumer-nacos-order83" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-consumer-nacos-order83" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-consumer-nacos-order83" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-consumer-nacos-order83" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-consumer-nacos-order83" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-consumer-nacos-order83" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-consumer-nacos-order83" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-consumer-nacos-order83" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-learning-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
               <item name="cloud_learning_mbg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -170,6 +480,43 @@
               <item name="cloud_learning_mbg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_mbg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_mbg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_mbg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_mbg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -178,6 +525,167 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_mbg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="asserts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="realm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_learning_shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz_cloud_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz_cloud_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,23 +699,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\gzgz_cloud_learning\cloud_learning_shiro" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gzgz.learning" />
       <recent name="com.gzgz.learning.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\gzgz_cloud_learning\cloud_learning_mbg\src\main\resources" />
-      <recent name="E:\IdeaProjects\gzgz_cloud_learning\cloud_learning_mbg\src\main\java\com\gzgz\learning" />
-      <recent name="E:\IdeaProjects\gzgz_cloud_learning\cloud_learning_shiro\src\main\resources" />
+      <recent name="E:\IdeaProjects\gzgz_cloud_learning\cloud-learning-consumer-nacos-order83\src\main\resources" />
+      <recent name="E:\IdeaProjects\gzgz_cloud_learning\cloud-learning-consumer-nacos-order83\src\main\java\com\gzgz\learning" />
+      <recent name="E:\IdeaProjects\gzgz_cloud_learning\cloud-learning-provider-payment9002\src\main\resources" />
+      <recent name="E:\IdeaProjects\gzgz_cloud_learning\cloud-learning-provider-payment9002\src\main\java\com\gzgz\learning" />
+      <recent name="E:\IdeaProjects\gzgz_cloud_learning\cloud-learning-provider-payment9001\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,7 +735,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.NacosConfigClientMain3377">
+    <configuration name="LeanringShiroMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gzgz.learning.LeanringShiroMain" />
+      <module name="cloud_learning_shiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gzgz.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybatisGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gzgz.learning.MybatisGenerator" />
       <module name="cloud_learning_mbg" />
@@ -236,8 +762,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NacosConfigClientMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-learning-nacos-client3377" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gzgz.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzgz.learning.NacosConfigClientMain3377" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
+        <item itemvalue="Application.LeanringShiroMain" />
         <item itemvalue="Application.MybatisGenerator" />
       </list>
     </recent_temporary>
@@ -253,17 +794,54 @@
       <option name="presentableId" value="Default" />
       <updated>1607333455438</updated>
       <workItem from="1607333457657" duration="1757000" />
-      <workItem from="1607390025770" duration="659000" />
+      <workItem from="1607390025770" duration="15116000" />
     </task>
+    <task id="LOCAL-00001" summary="shiro学习">
+      <created>1607390771922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607390771922</updated>
+    </task>
+    <task id="LOCAL-00002" summary="文档">
+      <created>1607391779825</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607391779825</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tupian">
+      <created>1607392409160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607392409160</updated>
+    </task>
+    <task id="LOCAL-00004" summary="笔记">
+      <created>1607392746746</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607392746746</updated>
+    </task>
+    <task id="LOCAL-00005" summary="shiro笔记更新">
+      <created>1607393008333</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607393008333</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2416000" />
+    <option name="totallyTimeSpent" value="16873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Web" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -271,13 +849,14 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32962137" />
       <window_info anchor="bottom" id="Run with VisualVM" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -288,11 +867,11 @@
       <window_info anchor="bottom" id="Sequence" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
@@ -306,87 +885,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="shiro学习" />
+    <MESSAGE value="文档" />
+    <MESSAGE value="tupian" />
+    <MESSAGE value="笔记" />
+    <MESSAGE value="shiro笔记更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="shiro笔记更新" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/LeanringShiroMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/config/SwaggerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="36" column="87" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2525">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/mapper/GzgzTestMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/mybatis/GzgzTestMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/generator.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/GzgzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/MybatisGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -394,10 +901,334 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/resources/generatorConfig.xml">
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/LeanringShiroMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        <state relative-caret-position="175">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="60" selection-start-column="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/config/SwaggerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="14" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#1688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/realm/ResUserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_mbg/src/main/java/com/gzgz/learning/model/ResUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="74" column="26" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="74" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/dto/ResUserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/exception/Asserts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/asserts/IErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/asserts/PageList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/asserts/PageRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/asserts/ResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/exception/ApiException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1075">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/utils/BeanCopyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/utils/EnumMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/utils/EnumUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/common/utils/GenerateDateTimeUniqueID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/service/ResUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/service/impl/ResUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#793#802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/SpringCloud.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-6375" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_learning_shiro/src/main/java/com/gzgz/learning/controller/ResUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-gateway9527/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="94" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-nacos-client3377/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-api-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-api-commons/src/main/java/com/gzgz/learning/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-api-commons/src/main/java/com/gzgz/learning/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-nacos-client3377/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-nacos-client3377/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-nacos-client3377/src/main/java/com/gzgz/learning/NacosConfigClientMain3377.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-nacos-client3377/src/main/java/com/gzgz/learning/ConfigClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-provider-payment9001/src/main/java/com/gzgz/learning/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-provider-payment9001/src/main/java/com/gzgz/learning/CloudalibabaProviderPayment9001Application.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-provider-payment9001/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-provider-payment9001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-provider-payment9002/src/main/java/com/gzgz/learning/CloudalibabaProviderPayment9002Application.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-provider-payment9002/src/main/java/com/gzgz/learning/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-provider-payment9002/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-provider-payment9002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/java/com/gzgz/learning/ApplicationContextConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/java/com/gzgz/learning/OrderNacosController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/java/com/gzgz/learning/OrderNacosMain83.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/java/com/gzgz/learning/config/ApplicationContextConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/java/com/gzgz/learning/controller/OrderNacosController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-learning-consumer-nacos-order83/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -451,10 +1282,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>cloud-learning-api-commons</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
