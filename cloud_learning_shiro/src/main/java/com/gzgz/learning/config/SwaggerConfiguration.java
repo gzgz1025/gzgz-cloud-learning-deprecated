@@ -1,5 +1,5 @@
 /*
-package com.gzgz.learning.config;
+package com.gzgz.learning.com.gzgz.learning.config;
 
 import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
 import org.springframework.context.annotation.Bean;

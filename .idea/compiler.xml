@@ -2,14 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-learning-gateway9527" />
+        <module name="cloud-learning-provider-payment9002" />
         <module name="cloud-learning-provider-payment9001" />
         <module name="cloud_learning_mbg" />
-        <module name="cloud-learning-provider-payment9002" />
+        <module name="cloud-learning-gateway9527" />
+        <module name="cloud-learning-provider-payment8001" />
         <module name="cloud-learning-consumer-nacos-order83" />
         <module name="cloud-learning-nacos-client3377" />
         <module name="cloud_learning_shiro" />
@@ -23,6 +25,7 @@
       <module name="cloud-learning-consumer-nacos-order83" options="-parameters" />
       <module name="cloud-learning-gateway9527" options="-parameters" />
       <module name="cloud-learning-nacos-client3377" options="-parameters" />
+      <module name="cloud-learning-provider-payment8001" options="-parameters" />
       <module name="cloud-learning-provider-payment9001" options="-parameters" />
       <module name="cloud-learning-provider-payment9002" options="-parameters" />
       <module name="cloud_learning_mbg" options="-parameters" />

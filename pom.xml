@@ -17,6 +17,7 @@
         <module>cloud-learning-provider-payment9001</module>
         <module>cloud-learning-provider-payment9002</module>
         <module>cloud-learning-api-commons</module>
+        <module>cloud-learning-provider-payment8001</module>
     </modules>
 
     <parent>

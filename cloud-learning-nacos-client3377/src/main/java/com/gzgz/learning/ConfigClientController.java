@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope   //通过SpringCloud原生注解 @RefreshScope 实现配置自动更新
 public class ConfigClientController {
-    @Value("${config.info}")
+    @Value("${com.gzgz.learning.config.info}")
     private String configInfo;
 
-    @GetMapping("/config/info")
+    @GetMapping("/com.gzgz.learning.config/info")
     public String getConfigInfo() {
         return configInfo;
     }

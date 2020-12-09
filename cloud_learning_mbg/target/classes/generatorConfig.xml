@@ -43,7 +43,7 @@
                              targetProject="cloud_learning_mbg\src\main\java"
                              type="XMLMAPPER"/>
         <!--生成全部表tableName设为%-->
-        <table tableName="%">
+        <table tableName="payment">
             <generatedKey column="id" sqlStatement="JDBC"/>
         </table>
     </context>
