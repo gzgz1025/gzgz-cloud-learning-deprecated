@@ -13,6 +13,7 @@
         <module name="cloud-learning-gateway9527" />
         <module name="cloud-learning-provider-payment8001" />
         <module name="cloud-learning-consumer-nacos-order83" />
+        <module name="cloud-learning-sentinel-service8401" />
         <module name="cloud-learning-nacos-client3377" />
         <module name="cloud_learning_shiro" />
         <module name="cloud-learning-api-commons" />
@@ -28,6 +29,7 @@
       <module name="cloud-learning-provider-payment8001" options="-parameters" />
       <module name="cloud-learning-provider-payment9001" options="-parameters" />
       <module name="cloud-learning-provider-payment9002" options="-parameters" />
+      <module name="cloud-learning-sentinel-service8401" options="-parameters" />
       <module name="cloud_learning_mbg" options="-parameters" />
       <module name="cloud_learning_shiro" options="-parameters" />
     </option>
