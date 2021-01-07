@@ -20,6 +20,7 @@
         <module>cloud-learning-provider-payment8001</module>
         <module>cloud-learning-sentinel-service8401</module>
         <module>cloud_learning_sms</module>
+        <module>cloud-learning-java</module>
     </modules>
 
     <parent>
