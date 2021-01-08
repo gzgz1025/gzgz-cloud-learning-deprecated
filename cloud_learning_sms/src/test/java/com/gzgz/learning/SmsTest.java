@@ -1,8 +1,13 @@
 package com.gzgz.learning;
 
 import com.gzgz.learning.dto.SmsParamDto;
+import com.gzgz.learning.event.EventBus;
 import com.gzgz.learning.utils.SmsToos;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -14,8 +19,15 @@ import java.lang.reflect.Method;
  * @CreateDate: 2020/12/17 15:22
  * @Version: 1.0
  */
+@RunWith(SpringRunner.class)
+@SpringBootTest(webEnvironment= SpringBootTest.WebEnvironment.DEFINED_PORT)
 public class SmsTest {
     //SmsUtils.fdddf("","",duanxin);
+    static {
+        System.setProperty("spring.profiles.active", "local");
+    }
+    @Autowired
+    private EventBus eventBus;
     @Test
     public void smsTest(){
         Class<?> clazz;
@@ -41,5 +53,10 @@ public class SmsTest {
             e.printStackTrace();
         }
 
+    }
+
+    @Test
+    public void testEvent(){
+        eventBus.publish("12");
     }
 }
