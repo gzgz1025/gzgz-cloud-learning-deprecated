@@ -16,9 +16,9 @@ public class EnumUtil {
      * @param <T>
      * @return
      */
-    public static <T extends EnumMessage> T getByCode(String code, Class<T> enumClass) {
+    public static <T extends Messageable> T getByCode(String code, Class<T> enumClass) {
         for (T each: enumClass.getEnumConstants()) {
-            if (code.equals(each.getCode())) {
+            if (code.equals(each.code())) {
                 return each;
             }
         }
